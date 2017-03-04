@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.sonu.mbltrust.Contact">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="MBLVTrust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:id="@+id/textView14"
+        android:textColor="@color/cardview_light_background"
+        android:layout_alignBottom="@+id/toolbar4"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="Address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="122dp"
+        android:id="@+id/address"
+        android:background="@drawable/background"
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/toolbar4"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Send Email"
+        android:layout_width="match_parent"
+        android:id="@+id/sendEmail"
+        android:background="@drawable/background"
+        android:layout_height="40dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/address"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Call Us"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/makeCall"
+        android:textColor="@color/cardview_light_background"
+        android:background="@drawable/background"
+        android:layout_below="@+id/sendEmail"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="normal|bold|italic"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/toolbar4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp" />
+</RelativeLayout>
