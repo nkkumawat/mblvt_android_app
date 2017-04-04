@@ -1,6 +1,6 @@
 # mblvt_android_app
 MBLVT is a charitable trust which provides scholorship to students for their future study
-
+<p align="center">
 <img src="https://github.com/nkkumawat/mblvt_android_app/raw/master/MBLTrust/screenshots/h1.png" width="250">
 <img src="https://github.com/nkkumawat/mblvt_android_app/raw/master/MBLTrust/screenshots/h2.png" width="250">
 <img src="https://github.com/nkkumawat/mblvt_android_app/raw/master/MBLTrust/screenshots/h3.png" width="250">
@@ -12,4 +12,4 @@ MBLVT is a charitable trust which provides scholorship to students for their fut
 <img src="https://github.com/nkkumawat/mblvt_android_app/raw/master/MBLTrust/screenshots/h8.png" width="250">
 <img src="https://github.com/nkkumawat/mblvt_android_app/raw/master/MBLTrust/screenshots/h9.png" width="250">
 <img src="https://github.com/nkkumawat/mblvt_android_app/raw/master/MBLTrust/screenshots/h10.png" width="250">
-
+</p>
